@@ -1,0 +1,16 @@
+Name: Aurex pam-quota-script
+Default: yes
+Priority: 900
+Auth-Type: Additional
+Auth:  
+        optional        pam_script.so dir=/usr/share/aurex-pam-quota/
+Session-Type: Additional
+Session:
+        optional        pam_script.so dir=/usr/share/aurex-pam-quota/
+Account-Type: Additional
+Account:
+        optional        pam_script.so dir=/usr/share/aurex-pam-quota/
+Password-Type: Additional
+Password:
+        optional        pam_script.so dir=/usr/share/aurex-pam-quota/
+

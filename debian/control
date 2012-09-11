@@ -1,0 +1,13 @@
+Source: aurex-pam-quota
+Section: admin
+Priority: optional
+Maintainer: Luis Antonio Garcia Gisbert <luisgg@gmail.com>
+Build-Depends: debhelper (>= 7.0)
+Standards-Version: 3.9.3
+
+Package: aurex-pam-quota
+Architecture: all
+Depends: ${misc:Depends}, libpam-script, quota, quotatool
+Description: aurex automatic quota restrictions
+ The package installs the required tools to enable (local) disk quota
+ restrictions when new users log in
