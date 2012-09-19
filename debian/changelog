@@ -1,3 +1,9 @@
+aurex-pam-quota (0.2) precise; urgency=low
+
+  * Added a sample configuration file
+
+ -- Luis Antonio Garcia Gisbert <luisgg@gmail.com>  Wed, 19 Sep 2012 15:35:46 +0200
+
 aurex-pam-quota (0.1) unstable; urgency=low
 
   * Initial release.
