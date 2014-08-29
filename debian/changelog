@@ -1,3 +1,9 @@
+aurex-pam-quota (0.5) trusty; urgency=medium
+
+  * Rebuild for aures 14.04 trusty
+
+ -- Luis Antonio Garcia Gisbert <luisgg@gmail.com>  Fri, 29 Aug 2014 03:12:27 +0200
+
 aurex-pam-quota (0.4) precise; urgency=low
 
   * Updated example quota sizes
