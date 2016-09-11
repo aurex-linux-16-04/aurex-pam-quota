@@ -1,5 +1,1 @@
-/usr/share/aurex-pam-quota/aurex-quota	/usr/share/aurex-pam-quota/pam_script_auth
-/bin/true				/usr/share/aurex-pam-quota/pam_script_acct
-/bin/true				/usr/share/aurex-pam-quota/pam_script_passwd
-/bin/true				/usr/share/aurex-pam-quota/pam_script_ses_open
-/bin/true				/usr/share/aurex-pam-quota/pam_script_ses_close
+/usr/share/aurex-pam-quota/aurex-quota	/etc/aurex-pam-script/ses_open.d/10-aurex-quota

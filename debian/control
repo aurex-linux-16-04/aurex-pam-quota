@@ -7,7 +7,7 @@ Standards-Version: 3.9.3
 
 Package: aurex-pam-quota
 Architecture: all
-Depends: ${misc:Depends}, libpam-script, quota, quotatool
+Depends: ${misc:Depends}, aurex-pam-script, quota, quotatool
 Description: aurex automatic quota restrictions
  The package installs the required tools to enable (local) disk quota
  restrictions when new users log in
